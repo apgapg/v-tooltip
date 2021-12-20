@@ -18,6 +18,22 @@ Easy tooltips, popovers and dropdowns with <a href="https://github.com/FezVrasta
 
 [💚️ Become a Sponsor](https://github.com/sponsors/Akryum)
 
+## Installation
+
+### Nuxt.js
+
+Add `v-tooltip/nuxt` to modules section of `nuxt.config.js`
+
+```js
+{
+  modules: [
+    'v-tooltip/nuxt',
+    // Or if you have custom options...
+    ['v-tooltip/nuxt', { defaultPlacement: 'top' }],
+  ]
+}
+```
+
 ## Sponsors
 
 [![sponsors logos](https://guillaume-chau.info/sponsors.png)](https://guillaume-chau.info/sponsors)
